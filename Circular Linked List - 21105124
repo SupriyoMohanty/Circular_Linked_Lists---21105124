@@ -30,7 +30,7 @@ class CircularLinkedList:
 		# If linked list is not None then set the next of
 		# last node
 		if self.head is not None:
-			while(temp.next != self.head):#This condition establishes that the traversing element(temp) has reached the first element
+			while(temp.next != self.head): #This condition establishes that the traversing element(temp) has reached the first element
 				temp = temp.next
 			temp.next = ptr1
 
@@ -64,7 +64,7 @@ cllist.push(6)
 print ("Contents of circular Linked List")
 cllist.printList()
 
-#Line 39 i.e. while(temp->next!=head) establishes that the traversing element/variable has reached the first element.
+#Line 33 i.e. while(temp->next!=head) establishes that the traversing element/variable has reached the first element.
 #We Know that in circular linked list last node of linked list points to head of that linked list, hence we can check if any node points to head of linked list then that node is the end of circular linked list.
 
 
